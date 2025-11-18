@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Photography Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Travel Photography Gallery</h1>
+      <p>A minimalist collection of moments from my travels.</p>
+    </header>
+
+    <div class="filters">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="nature">Nature</button>
+      <button class="filter" data-filter="street">Street</button>
+      <button class="filter" data-filter="travel">Travel</button>
+    </div>
+
+    <div id="gallery" class="gallery-grid"></div>
+
+    <div id="lightbox" class="lightbox hidden">
+      <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="" />
+        <h3 id="lightbox-title"></h3>
+        <p id="lightbox-location"></p>
+        <button id="lightbox-close">×</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

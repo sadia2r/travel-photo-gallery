@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  color: #222;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.filter {
+  padding: 8px 16px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.filter.active {
+  background: #333;
+  color: white;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.03);
+}
+
+.lightbox.hidden {
+  display: none;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox-content {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 90%;
+}
+
+#lightbox-img {
+  max-width: 100%;
+  border-radius: 12px;
+}
