@@ -396,3 +396,9 @@ body {
     right: -30px;
   }
 }
+/* Hide arrows on phones */
+@media (max-width: 600px) {
+  .lightbox-arrow {
+    display: none !important;
+  }
+}
