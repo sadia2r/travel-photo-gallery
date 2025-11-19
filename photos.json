@@ -1,63 +1,157 @@
 [
   {
-    "title": "Lake Como View",
-    "location": "Italy",
-    "category": "nature",
-    "image": "assets/photos/lake-como.jpg",
-    "date": "2024-01-01"
-  },
-  {
-    "title": "Pink Palm Walkway",
-    "location": "Jeddah",
-    "image": "assets/photos/jeddah-pink-walkway.jpg",
-    "category": ["travel", "urban"]
-  },
-  {
-    "title": "Turquoise Aegean Sea",
-    "location": "Greece",
-    "image": "assets/photos/greece-turquoise-sea.jpg",
-    "category": ["travel", "nature"]
-  },
-  {
-    "title": "Sunset at the Indian Border",
-    "location": "Bangladesh",
-    "image": "assets/photos/sunset-on-border.jpg",
-    "category": ["travel", "nature"]
+    "title": "Snowy Alpine Lakeside",
+    "image": "assets/photos/alps-snowy-lake.jpg",
+    "tags": ["waters"]
   },
   {
     "title": "Green Wetlands",
-    "location": "Bangladesh",
     "image": "assets/photos/bangladesh-green-wetlands.jpg",
-    "category": ["travel", "nature"]
+    "tags": ["greenery"]
   },
   {
-    "title": "Floating Mosque by the Sea",
-    "location": "Jeddah",
-    "image": "assets/photos/jeddah-floating-mosque.jpg",
-    "tags": ["travel", "urban"]
-  },
-  {
-    "title": "Village Sunset",
-    "location": "Bangladesh",
+    "title": "Bangladesh Village Sunset",
     "image": "assets/photos/bangladesh-sunset-field.jpg",
-    "tags": ["travel", "nature"]
+    "tags": ["sun"]
   },
   {
-    "title": "Snowy Lakeside",
-    "location": "The Alps",
-    "image": "assets/photos/alps-snowy-lake.jpg",
-    "tags": ["travel", "nature"]
+    "title": "Layers of Blue - Rhodes",
+    "image": "assets/photos/boat-on-sea.jpg",
+    "tags": ["waters"]
   },
   {
-    "title": "Sunset Over the Hills",
-    "location": "Turkey",
-    "image": "assets/photos/turkish-sunset.jpg",
-    "tags": ["travel", "nature"]
+    "title": "Grazing Hills",
+    "image": "assets/photos/cattle.jpg",
+    "tags": ["greenery"]
+  },
+  {
+    "title": "Dubai Night Glow",
+    "image": "assets/photos/dubai-skyline.jpg",
+    "tags": ["travel"]
+  },
+  {
+    "title": "Soft Blue Coast",
+    "image": "assets/photos/fenals-beach.jpg",
+    "tags": ["waters"]
+  },
+  {
+    "title": "Misty Forest",
+    "image": "assets/photos/foggy-trees.jpg",
+    "tags": ["greenery"]
+  },
+  {
+    "title": "Jeddah Floating Mosque",
+    "image": "assets/photos/jeddah-floating-mosque.jpg",
+    "tags": ["travel"]
+  },
+  {
+    "title": "Lake Como View",
+    "image": "assets/photos/lake-como.jpg",
+    "tags": ["waters"]
+  },
+  {
+    "title": "Milan Cathedral at Christmas",
+    "image": "assets/photos/milan.jpg",
+    "tags": ["travel"]
+  },
+  {
+    "title": "Moonlit Turkish Shore",
+    "image": "assets/photos/moon-beach.jpg",
+    "tags": ["waters"]
   },
   {
     "title": "Pink Evening Sky",
-    "location": "Bangladesh",
     "image": "assets/photos/pink-purple-sky.jpg",
-    "tags": ["travel", "nature"]
+    "tags": ["sun"]
+  },
+  {
+    "title": "Sunset Over the Hills",
+    "image": "assets/photos/turkish-sunset.jpg",
+    "tags": ["sun"]
+  },
+  {
+    "title": "Crashing Waves",
+    "image": "assets/photos/waves.jpg",
+    "tags": ["waters"]
+  },
+  {
+    "title": "Marsh Reflections",
+    "image": "assets/photos/wetlands.jpg",
+    "tags": ["greenery"]
+  },
+  {
+    "title": "Desert Tea Break",
+    "image": "assets/photos/moroccan-tea-and-bread-desert.jpg",
+    "tags": ["travel"]
+  },
+  {
+    "title": "Cliffside Sunset",
+    "image": "assets/photos/cornwall-sunset.jpg",
+    "tags": ["sun"]
+  },
+  {
+    "title": "Silver Horizon",
+    "image": "assets/photos/white-sea.jpg",
+    "tags": ["waters"]
+  },
+  {
+    "title": "Medina Glow",
+    "image": "assets/photos/medina-sunset.jpg",
+    "tags": ["sun"]
+  },
+  {
+    "title": "Glasswork Dome",
+    "image": "assets/photos/milan-roof.jpg",
+    "tags": ["travel"]
+  },
+  {
+    "title": "Canal Reflections",
+    "image": "assets/photos/river-lights.jpg",
+    "tags": ["travel"]
+  },
+  {
+    "title": "Old Town Passage",
+    "image": "assets/photos/a-moroccan-street.jpg",
+    "tags": ["travel"]
+  },
+  {
+    "title": "Quiet Shores",
+    "image": "assets/photos/water.jpg",
+    "tags": ["waters"]
+  },
+  {
+    "title": "Fields from Above",
+    "image": "assets/photos/plane-field-view.jpg",
+    "tags": ["travel"]
+  },
+  {
+    "title": "Crescent Through the Trees",
+    "image": "assets/photos/trees-and-moon.jpg",
+    "tags": ["sun"]
+  },
+  {
+    "title": "Red Ixora Bloom",
+    "image": "assets/photos/ixora.jpg",
+    "tags": ["greenery"]
+  },
+  {
+    "title": "Soft Hibiscus Glow",
+    "image": "assets/photos/hibiscus.jpg",
+    "tags": ["greenery"]
+  },
+  {
+    "title": "Floral Country Lane",
+    "image": "assets/photos/floral-lane.jpg",
+    "tags": ["greenery"]
+  },
+  {
+    "title": "Pink Weigela Cluster",
+    "image": "assets/photos/weigala.jpg",
+    "tags": ["greenery"]
+  },
+  {
+    "title": "Blue Harbour",
+    "image": "assets/photos/boats.jpg",
+    "tags": ["waters"]
   }
 ]

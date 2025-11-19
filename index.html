@@ -2,31 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Photography Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Travel Photography Gallery</h1>
-      <p>A minimalist collection of moments from my travels.</p>
-    </header>
+    <main class="page">
+        <header class="page-header">
+            <h1>Travel Photography</h1>
+            <p class="subtitle">Scenes that stayed with me.</p>
+          </header>
+          
 
-    <div class="filters">
-      <button class="filter active" data-filter="all">All</button>
-      <button class="filter" data-filter="nature">Nature</button>
-      <button class="filter" data-filter="urban">Urban</button>
-      <button class="filter" data-filter="travel">Travel</button>
-    </div>
 
-    <div id="gallery" class="gallery-grid"></div>
+      <!-- Masonry grid -->
+      <div class="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="travel">Travel</button>
+        <button class="filter" data-filter="waters">Waters</button>
+        <button class="filter" data-filter="sun">Sun</button>
+        <button class="filter" data-filter="greenery">Greenery</button>
+      </div>
+      
+      <div id="gallery" class="masonry"></div>
+      
+      <div id="scroll-trigger"></div>
+      
 
+    <!-- Lightbox -->
     <div id="lightbox" class="lightbox hidden">
+      <div class="lightbox-backdrop"></div>
       <div class="lightbox-content">
+        <button id="lightbox-close" class="lightbox-close" aria-label="Close">
+          ✕
+        </button>
         <img id="lightbox-img" src="" alt="" />
-        <h3 id="lightbox-title"></h3>
-        <p id="lightbox-location"></p>
-        <button id="lightbox-close">×</button>
+        <div class="lightbox-caption">
+          <h3 id="lightbox-title"></h3>
+        </div>
       </div>
     </div>
 
